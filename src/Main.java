@@ -8,6 +8,9 @@ public class Main {
         Point B2 = new Point(5, -1);
         Rectangle R2 = new Rectangle(A2, B2);
 
+        System.out.println("P1: " + R1.getPerimeter());
+        System.out.println("S1: " + R1.getArea());
+
         if (R2.isOverLapping(R1))
             System.out.println("Rectangles overlap");
         else
